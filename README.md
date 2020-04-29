@@ -1,4 +1,4 @@
-# team44
+# Language Learning Card
 ## About the website
 The primary purpose of the website is for the user to expand their vocabulary, and we believe
 online learning can give the user more flexibility and personalize their own learning pace.
