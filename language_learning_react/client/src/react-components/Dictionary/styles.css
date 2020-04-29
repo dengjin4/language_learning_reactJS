@@ -1,0 +1,107 @@
+#select {
+  margin-right: 3px;
+}
+#vocabularyCard {
+  transform: "translate(-50%, -50%)";
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  min-width: 600px;
+  min-height: 550px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+#addButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  font-size: "small";
+  color: #414a4c;
+}
+#pos {
+  padding: 0px;
+  margin: 0 auto;
+  color: #4a7d95;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+#word {
+  margin: 0 auto;
+  color: #4169e1;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+#addIcon {
+  margin-right: 3px;
+}
+#describe {
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 20px;
+}
+
+#translation{
+  min-height: 345px;
+}
+#add {
+  padding-bottom: 1%;
+  color: #414a4c;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+#desTitle {
+  color: #265667;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  padding-bottom: 0;
+  margin-top: 12px;
+}
+#saved {
+  color: #414a4c;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+#star {
+  color: #b22222;
+  font-size: "small";
+}
+#recommend {
+  font-family: "Playfair Display", serif;
+  color: #414a4c;
+  font-size: 20px;
+}
+#thumbUp {
+  margin-right: 4px;
+}
+#recommended {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  color: #4b5351;
+}
+#check {
+  margin-left: 3px;
+}
+#audio{
+  width:100%;
+  margin-top: 18px
+}

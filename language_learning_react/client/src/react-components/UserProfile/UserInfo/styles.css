@@ -1,0 +1,33 @@
+.userinfo_table {
+  margin: 0 40px;
+}
+.image-form__message--success {
+  color: green;
+}
+
+.image-form__message--error {
+  color: red;
+}
+
+.profile_name {
+  width: 300px;
+}
+.image-form {
+  float: right;
+  margin: 0 auto;
+}
+
+#name {
+  margin-left: 4%;
+}
+.choosefile{
+  float: right;
+  display: block;
+  margin: 10px;
+  width: 180px
+}
+
+.uploadbutton{
+  float: right;
+  text-align: center;
+}

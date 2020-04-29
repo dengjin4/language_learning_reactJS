@@ -1,0 +1,217 @@
+/* Styles for the Learning React component */
+
+/* styles for learnConatiner.js */
+.Main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.Main-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.Main-button {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+}
+
+/* styles for siderbar.js */
+.Sidebar {
+  width: 300px;
+  /* border: 1px solid #e7e7e7; */
+  float: left;
+  color: rgb(61, 30, 145);
+  position: relative;
+}
+
+#learnMessage {
+  font-size: 1.5em;
+  margin: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+#reviewMessage {
+  font-size: 1.5em;
+  margin: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* styles for learnCards.js */
+.Flashcards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 3;
+  margin-left:350px;
+}
+
+#learnCard {
+  transform: "translate(-50%, -50%)";
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  min-width: 600px;
+  min-height: 550px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background-color: hsl(255, 100%, 99%);
+}
+
+.Flashcards-index {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.Flashcards-prevNext-button {
+  display: flex;
+  margin: 50px;
+  justify-content: "space-evenly";
+  flex-direction: row;
+  flex: 1;
+}
+
+.Flashcards-button {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1rem;
+  display: block;
+}
+
+.Flashcards-flip-button {
+  margin-top: 10px;
+  margin-left: 230px;
+  font-size: 1rem;
+  display: block;
+}
+
+/* styles for learnCard.js */
+.Flashcard-Row {
+  padding: 5px;
+}
+
+.Flashcard-container {
+  cursor: pointer;
+  height: 400px;
+  width: 550px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.Flashcard {
+  height: 450px;
+  width: 550px;
+  position: absolute;
+  border: 1px solid #300;
+}
+
+
+.Flashcard .front{
+  height: 340px;
+  width: 550px;
+  position: absolute;
+  background-color: hsl(255, 100%, 99%);
+}
+
+.Flashcard .back {
+  height: 400px;
+  width: 550px;
+  position: absolute;
+  background-color: hsl(255, 100%, 99%);
+}
+
+#learn-word {
+  color: #4a7d95;
+  font-family: "Playfair Display", serif;
+  min-width: 550px;
+  min-height: 340px;
+  padding-top: 20%;
+  font-size: 2.3em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  max-width: 340px;
+}
+
+#learn-translation {
+  color: #333;
+  font-family: "Playfair Display", serif;
+  min-width: 550px;
+  min-height: 450px;
+  /* padding-top: 9%; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  max-width: 400px;
+}
+
+
+#pos-translation {
+  padding: 0px;
+  margin: 0 auto;
+  color: #4a7d95;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+
+#pos-word {
+  padding: 0px;
+  margin: 0 auto;
+  color: #4a7d95;
+  font-family: "Playfair Display", serif;
+  font-size: 1.0em;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+
+
+#learn-describe {
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  font-size: 20px;
+}
+
+#learn-desTitle {
+  color: #265667;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  padding-bottom: 0;
+  margin-top: 12px;
+}
+
+.Flashcard-actions {
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  display: block;
+}

@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: darkslategrey;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}

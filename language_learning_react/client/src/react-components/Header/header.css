@@ -1,0 +1,79 @@
+.Header {
+  min-height: 64px;
+  flex-grow: 1;
+  width: 100%;
+  float: left;
+  min-height: 65px;
+}
+.Header_AppBar {
+  position: fixed;
+}
+
+.Header_logo {
+  width: 70px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.Header_userwrapper {
+  display: flex;
+  min-width: 50px;
+}
+.Header_title {
+  flex-grow: 1;
+  text-align: center;
+}
+#searchIcon {
+  padding: 10px;
+  font-size: xx-large;
+}
+#searchWord {
+  font-family: "Playfair Display", serif;
+  display: block;
+  color: #0a1b27;
+  font-size: 1.25em;
+  font-weight: 300;
+  overflow: hidden;
+  border: 1px solid #b1b9bf;
+  box-sizing: border-box;
+  background-color: white;
+  padding-left: 10;
+}
+#searchBar {
+  float: left;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+}
+#source {
+  background-color: white;
+  border-radius: 15%;
+  height: 50%;
+  padding: 12px;
+  padding-right: 30px;
+}
+#searchIcon {
+  font-size: large;
+}
+#logout {
+  font-size: small;
+}
+#logoutIcon {
+  padding-right: 5px;
+  font-size: xx-large;
+}
+#logoutText {
+  font-size: initial;
+  padding-bottom: 2px;
+}
+#adminIcon {
+  color: inherit;
+  font-size: xx-large;
+}
+#homeIcon {
+  font-size: xx-large;
+}
+.Header_userwrapper {
+  float: left;
+}

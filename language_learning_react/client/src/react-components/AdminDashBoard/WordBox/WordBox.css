@@ -1,0 +1,22 @@
+.wordbox {
+  height: 60px;
+  border-bottom: 1px solid lightslategrey;
+}
+
+.libword {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rightlibword {
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.center {
+  margin-top: 9px;
+  text-align: center;
+  float: right;
+}

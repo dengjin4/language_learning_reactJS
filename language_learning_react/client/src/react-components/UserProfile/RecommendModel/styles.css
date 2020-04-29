@@ -1,0 +1,9 @@
+.learn_module{
+  display: flex;
+}
+.libname_list {
+  margin-right: 10px;
+}
+.learnword-list {
+    width: 100%;
+  }
